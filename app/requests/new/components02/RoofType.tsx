@@ -6,22 +6,19 @@ type Props = {
     image: any,
     name: string,
     description: string,
-    isSelected: boolean,
 }
 
 const RoofType = (props: Props) => {
   return (
-    <div "flex flex-row">
-      <div>
-        <Image className="" src={props.image} alt="Satteldach"/>
+    <div className="flex flex-col items-center">
+      <div className="basis-1/2">
+        <Image className="w-1/3 mx-auto" src={props.image} alt="Satteldach" />
       </div>
-      <div>
-        <Typography variant="h5" color="blue-gray" className="mb-2">
-          {props.name}
-        </Typography>
+      <div className="basis-1/2">
+        {props.name}
       </div>
     </div>
-  )
+  )                                                                           
 }
 
 export default RoofType
