@@ -1,7 +1,7 @@
 'use client'
 
-import React, { useState } from 'react'
-import {Typography, Input } from '../../../materialComponents.jsx'
+import React from 'react'
+import {Typography} from '../../../materialComponents.jsx'
 import RoofTypeSelector from './RoofTypeSelector'
 import TrussDetails from './TrussDetails'
 
