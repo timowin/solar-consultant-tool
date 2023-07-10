@@ -26,7 +26,6 @@ const TileDimensions = (props: Props) => {
 
   const handleFixationTypeChange = (e: string) => {
     setFixationType(e)
-    console.log(e)
   }
 
   return (
